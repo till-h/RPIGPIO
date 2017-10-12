@@ -1,49 +1,15 @@
-# Horizon: Introduction to Making & Prototyping
+# Physical Computing Workshop notes
 
-## Raspberry Pi & Electronics
+These notes were prepared for a workshop in physical computing. The suggested workshop duration is 4 to 5 hours. In particular, three aspects are addressed.
 
-To copy the repo in your computer just execute the following command line in the terminal ( you must be in the path where you want to save the folder in your computer):
+1. Fundamental setup for using Python inside Jupyter Notebooks on a Raspberry Pi system. (Following on from experience, we strongly suggest using a RPi 3, rather than a Zero when working with Jupyter in Chromium or similar. The Pi Zero struggles to serve all the graphics required.)
 
-``` bash
-$cd /name/of/folder
-$git clone https://github.com/Starignus/RPIGPIO
-```
+2. Recapping a few Python basics, including variables and operators, user input, lists, control flow (such as `if... elif... else`) and functions.
 
-#### Direct links to access guides from the browser:
+3. Physical computing on Raspberry Pi, using the GPIO pins, and the Adafruit Stepper Motor HAT, together with different DC and stepper motors. HATs are plug-in circuit boards that allow the Pi to "talk" to a larger variety of physical devices. More details and installation instructions for the Stepper Motor HAT can be found at https://www.adafruit.com/product/2348.
 
-##### Session 1:
+4. Basic data visualisation using Matplotlib/Pylab.
 
-* [Raspbery Pi](Session1/Introduction_RPI.md)
-  * What is Raspberry?
-  * Models of Raspberry Pi
-  * Raspberry Pi Board
-  * Why Raspberry Pi?
-  * Is RPi an IoT device?
-  * General Purpose I/O Pins (GPIO)
-  * Digital and Analogue
-  * Output: Converting Digital to Analogue
+We used these materials to enable a cohort of 24 post-graduate students to build various motor-driven contraptions at [Imperial College Advanced Hackspace](www.icah.org.uk).
 
-* [Introduction to Raspbian](Session1/Raspbian_Linux.md)
-   * Linux Basics
-     * [Cheat Sheet](Session1/Bash_script/Cheat_sheet_bash_Linux.md)
-
-Extra:
-* [Advance](Extramaterial/Advance.md)
-
-##### Session 2:
-
-* [Introduction to Python](Session2/Python/Python.md)
-* Python and GPIO (practice):
-    * [Digital I/O LEDs and Buttons](Session2/GPIO/GPIO_Led.md)
-    * Analogue I/O Temperature
-
-##### Session 3:
-
-* [Battery and Motors](Session3/Electronics.pdf)
-* Challenge: Build an idea (practice)
-* [Where to go further? (IoT, Data Science, Robotics, Health Care)](Session3/Applications.pdf)
-
-##### Optional material
-* [Backup RPi image operative system](Extramaterial/Advance.md)
-* [DC Motor practice](Extramaterial/GPIO_MotorHAT.md)
-* [Setup remote connection to RPi and WiFi at Imperial Collegue](https://starignus.github.io/PythonPractise//2016/10/14/RPisetup/)
+Thanks goes to [Starignus](https://github.com/Starignus) and [JSP110](https://github.com/JSP110), on whose much more extensive [RPIGPIO](https://github.com/Starignus/RPIGPIO) course this work is heavily based.
